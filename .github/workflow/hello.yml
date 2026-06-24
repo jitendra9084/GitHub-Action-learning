@@ -1,5 +1,5 @@
 ---
-name: "hello to main branch"
+name: "hello to main developer"
 on:
   push:
     branches:
@@ -8,5 +8,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Hello to main branch"
-        run: echo "Hello to main branch"
+      - name: "Hello to main developer"
+        run: echo "Hello to main developer"
