@@ -3,7 +3,7 @@ name: "hello to main branch"
 on:
   push:
     branches:
-      - main
+      - developer
 jobs:
   build:
     runs-on: ubuntu-latest
